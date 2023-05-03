@@ -1,0 +1,27 @@
+/*
+ * 파일정의 : common.css
+ * 파일설명 : common css
+ * 작성자 : lee hae ju
+ * 최초작성일: 2021/07/26
+ * 최종수정일: 2021/07/26
+*/
+
+/**********************************************************************************
+** 공통 아이콘
+***********************************************************************************/
+/* icon-arr-wrap */
+.icon-arr-wrap {
+    display: block;
+}
+.icon-arr-wrap .icon-arr-box {
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+}
+.icon-arr-wrap .icon-arr-box .icon-arr {
+    width: 160px;
+    transform: translate(-100%, -100%);
+}
+.wrap.init .icon-arr-wrap .icon-arr-box .icon-arr {
+    animation: none;
+}
