@@ -15,7 +15,7 @@
 
                     <ul class="project-list" v-if="!checkProjectTypeList(typeItem.id)">
                         <template v-for="projectItem in projectList">
-                            <li class="project-projectItem" :key="projectItem.id" v-if="typeItem.id === projectItem.type">
+                            <li class="project-item" :key="projectItem.id" v-if="typeItem.id === projectItem.type">
                                 <router-link :to="{ name: 'project', params: { id: projectItem.id }, query: { title: projectItem.title } }" class="project-link">
                                     <div class="info-wrap">
                                         <div class="date-box">
