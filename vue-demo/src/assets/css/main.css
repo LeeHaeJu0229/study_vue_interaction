@@ -37,7 +37,7 @@
 }
 .project-list .project-item .thumb-wrap .date-box .company-name {
     display: inline-block;
-    padding: 0 3px 3px 0;
+    padding-bottom: 5px;
     vertical-align: middle;
     font-size: 10px;
     color: #555;
@@ -215,17 +215,16 @@
     margin-top: 0;
 }
 .gallery-index-wrap .project-list .project-item .date-box {
-    width: 80px;
-    margin-top: 8px;
+    width: 90px;
     flex-shrink: 0;
 }
 .gallery-index-wrap .project-list .project-item .date-box .company-name {
     display: inline-block;
     font-size: 10px;
-    margin-right: 2px;
 }
 .gallery-index-wrap .project-list .project-item .date-box .project-date {
-    display: inline-block;
+    display: block;
+    margin-top: 2px;
     font-size: 14px;
     font-weight: 500;
 }
